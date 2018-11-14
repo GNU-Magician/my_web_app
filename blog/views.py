@@ -18,9 +18,8 @@ def create_post(request):
 
     if request.POST:
         title = request.POST.get('title')
-        pub_date = timezone.now()
         content = request.POST.get('content')
-        obj = Post(post_title=title, pub_date=pub_date, post_content=content)
+        obj = Post(post_title=title, post_content=content)
         obj.save()
         return HttpResponseRedirect('/blog')
     else:
