@@ -37,6 +37,7 @@ Welcome to the Polls!
 
     {% else %}
         <p>No polls were available.</p>
+        <a href="{% url 'polls:create_page' %}">Create one here.</a>
 {% endif %}
 {% endblock %}
 </body>
