@@ -6,8 +6,11 @@
     <title>{% block title %} Question Detail {% endblock %}</title>
 </head>
 <body>
+{% block content_title_1 %}
+Got any more of them stolen elections?
+{% endblock %}
 {% block content_title_2 %}
-Got any more of them..Stolen elections?
+    Question Detail
 {% endblock %}
 {% block content %}
 <h1>{{ question.question_text }}</h1>

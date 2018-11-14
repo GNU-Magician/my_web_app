@@ -6,6 +6,12 @@
     <title>{% block title %}Election Results {% endblock %}</title>
 </head>
 <body>
+{% block content_title_1 %}
+And the winner is..
+{% endblock %}
+{% block content_title_2 %}
+Poll Results
+{% endblock %}
 {% block content %}
 <h1>{{ question.question_text }}</h1>
 

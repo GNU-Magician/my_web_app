@@ -6,6 +6,12 @@
     <title>{% block title %} Create Question {% endblock %}</title>
 </head>
 <body>
+{% block content_title_1 %}
+Voice your Concerns
+{% endblock %}
+{% block content_title_1 %}
+Create a Question
+{% endblock %}
 {% block content %}
 <form action="{% url 'polls:create' %}" method="post">
     {% csrf_token %}
