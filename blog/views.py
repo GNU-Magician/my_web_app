@@ -2,10 +2,8 @@ from django.shortcuts import render
 from django.views import generic
 from django.http import *
 from .models import *
+from django.urls import reverse
 # Create your views here.
-def index(request):
-    obj = Post.objects.all()
-    return render(request, template_name='blog/index.html', context={'obj':obj})
 
 class IndexView(generic.ListView):
     template_name = 'blog/index.html'
@@ -14,3 +12,21 @@ class IndexView(generic.ListView):
 
     def get_queryset(self):
         return Post.objects.all()
+
+def create_post(request):
+    query = Post.objects.all()
+
+    if request.POST:
+        title = request.POST.get('title')
+        pub_date = timezone.now()
+        content = request.POST.get('content')
+        obj = Post(post_title=title, pub_date=pub_date, post_content=content)
+        obj.save()
+        return HttpResponseRedirect('/blog')
+    else:
+        return render(request, template_name='blog/create.html', context={'posts':query})
+
+class DeletePost(generic.DeleteView):
+    model = Post
+    success_url = '/blog'
+    template_name = 'blog/confirm_delete.html'

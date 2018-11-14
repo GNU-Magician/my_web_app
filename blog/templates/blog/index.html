@@ -9,16 +9,20 @@
 
 
 {% block content %}
+
     {% for post in posts %}
         <li><a href="#{{ post.post_title }}" id="markdown-toc-contents">{{ post.post_title }}</a></li>
     {% endfor %}
-
     </ul>
+
+<button type="button" class="ce oa nl" onclick="location.href='{% url 'blog:create_post' %}'"><span class="bv bec"></span> Create Post</button>
     {% for post in posts %}
 
     <h1 id="intro">{{ post.post_title }}</h1>
     <p id="{{ post.post_title }}">{{ post.pub_date }}</p>
     <p>{{ post.post_content }}</p>
+        <p><button type="button" class="ce oa no" onclick="location.href='{% url 'blog:delete_post' post.id %}'"><span class="bv bnl"></span> Delete</button>
+</p>
 
         <p><hr></p>
     {% endfor %}

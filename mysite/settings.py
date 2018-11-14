@@ -25,7 +25,7 @@ SECRET_KEY = '@gxg-^1&0+9@n+(eld&@_r7s-p9p&h%7(&d&0djk_c%ew68a@l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['hopenut.pythonanywhere.com', ]
+ALLOWED_HOSTS = ['hopenut.pythonanywhere.com', '127.0.0.1', ]
 
 
 # Application definition

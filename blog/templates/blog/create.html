@@ -1,0 +1,27 @@
+{% extends 'dashboard/docs/index.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+
+    </ul>
+    <form method="post">
+    {% csrf_token %}
+        <div class="bs">
+        <ul class="list-group">
+            <li class="list-group-item">  Title:   <input type="text" name="title"></li><br>
+            <li class="list-group-item"><label>Content:</label> <textarea rows="4" cols="50" name="content">
+</textarea> </li><br>
+
+    <input type="submit">
+        </ul>
+        </div>
+
+    </form>
+{% endblock %}
+</body>
+</html>
