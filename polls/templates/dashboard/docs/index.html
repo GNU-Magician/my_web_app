@@ -74,8 +74,9 @@
   
     <div class="bt" id="content">
       <div class="bw">
-        <h1>Blog List</h1>
-        <p>Here we have the list of blog posts. You can make a post, delete or edit one. Probably. I wrote this beforehand.</p>
+        <h1>{% block header_title %}Blog List {% endblock %}</h1>
+        <p>{% block header_content %}Here we have the list of blog posts. You can make a post, delete or edit one. Probably.
+            I wrote this beforehand.{% endblock %}</p>
       </div>
     </div>
     <div class="bw docs-content">

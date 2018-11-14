@@ -6,6 +6,8 @@
     <title>Title</title>
 </head>
 <body>
+{% block header_title %} Create Post {% endblock %}
+{% block header_content %} Here's where you write your glorious blog posts. Or shitty. Depends on you. {% endblock %}
 {% block content %}
 
     </ul>
@@ -13,8 +15,8 @@
     {% csrf_token %}
         <div class="bs">
         <ul class="list-group">
-            <li class="list-group-item">  Title:   <input type="text" name="title"></li><br>
-            <li class="list-group-item"><label>Content:</label> <textarea rows="4" cols="50" name="content">
+            <li class="list-group-item">  Title:   <input type="text" name="title" class="form-control"></li><br>
+            <li class="list-group-item"><label>Content:</label> <textarea rows="4" cols="50" name="content" class="form-control">
 </textarea> </li><br>
 
     <input type="submit">

@@ -7,6 +7,8 @@
     <title>Title</title>
 </head>
 <body>
+{% block header_title %} Confirm Deletion {% endblock %}
+{% block header_content %} Sure you ain't fucked up, pal? Wanna delete this shit? {% endblock %}
 {% block content %}
     </ul>
     <form method="post">{% csrf_token %}
