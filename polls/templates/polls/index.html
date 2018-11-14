@@ -1,0 +1,43 @@
+{% extends 'dashboard/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+    <title>{% block title %}Polls App{% endblock %}</title>
+</head>
+<body>
+{% block content_title_1 %}
+Welcome to the Polls!
+{% endblock %}
+
+{% block content %}
+    <p><h1>How does it work?</h1></p>
+    <p>Click on the question's name to vote on it. Click on delete to do exactly what you think it does. Click add a choice
+    to add some other choice to vote to.</p>
+    {% if latest_question_list %}
+        {% for question in latest_question_list %}
+            <ol class="ql">
+
+        <li class="qm"><a href={% url 'polls:detail' question.id %}>{{ question.question_text }}</a>
+            /
+            <a href="{% url 'polls:delete_question' question.id %}"> [Delete] </a>
+            /
+            <a href="{% url 'polls:create_choice' question.id %}"> [Add a Choice]</a>
+        </li>
+            </ol>
+        {% endfor %}
+
+
+        <a href="{% url 'polls:create_page' %}">Click here if you want to create a poll question.</a><br>
+        <p><a href="{% url 'polls:dashboard_index' %}">Click here to go the other index.</a></p>
+
+
+    {% else %}
+        <p>No polls were available.</p>
+{% endif %}
+{% endblock %}
+</body>
+</html>

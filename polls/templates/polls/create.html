@@ -1,0 +1,20 @@
+{% extends 'dashboard/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} Create Question {% endblock %}</title>
+</head>
+<body>
+{% block content %}
+<form action="{% url 'polls:create' %}" method="post">
+    {% csrf_token %}
+    <p>Create a question with the following caption below:</p>
+    <input type="text" name="text_name">
+    <input type="submit" name="submit">
+
+</form>
+
+{% endblock %}
+</body>
+</html>

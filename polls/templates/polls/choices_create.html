@@ -1,0 +1,23 @@
+{% extends 'dashboard/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+<ul>
+{% for choice in choices %}
+    <li>{{ choice}}</li>
+    {% endfor %}
+</ul>
+
+<form method="post">
+    {% csrf_token %}
+    Add a choice to the poll: <input type="text" name="choice_name">
+    <input type="submit">
+</form>
+{% endblock %}
+</body>
+</html>
