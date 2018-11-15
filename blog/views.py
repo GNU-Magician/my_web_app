@@ -35,6 +35,7 @@ class DeletePost(generic.DeleteView):
     template_name = 'blog/confirm_delete.html'
 
 def register(request):
+    all_users = User.objects.all()
 
     if request.POST:
         username = request.POST.get('username')
@@ -45,4 +46,4 @@ def register(request):
         return HttpResponseRedirect(reverse('blog:index'))
 
     else:
-        return render(request, template_name='blog/register.html')
+        return render(request, template_name='registration/register.html', context={'all_users':all_users})

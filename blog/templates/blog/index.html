@@ -8,12 +8,12 @@
 <body>
 
 
-{% block content %}
-
+{% block sidebar %}
     {% for post in posts %}
         <li><a href="#{{ post.post_title }}" id="markdown-toc-contents">{{ post.post_title }}</a></li>
     {% endfor %}
-    </ul>
+{% endblock %}
+{% block content %}
 
 <button type="button" class="ce oa nl" onclick="location.href='{% url 'blog:create_post' %}'"><span class="bv bec"></span> Create Post</button>
     {% for post in posts %}
