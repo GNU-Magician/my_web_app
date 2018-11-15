@@ -2,13 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c640f06d-8f20-4e31-950f-859d7aadf4e9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/dashboard/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/css/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/css/docs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/css/toolkit-inverse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/css/toolkit-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/fonts/toolkit-entypo.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/fonts/toolkit-entypo.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/fonts/toolkit-entypo.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/fonts/toolkit-entypo.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/fonts/toolkit-entypod41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/img/avatar-mdo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/toolkit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/fluid-light/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/fluid/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/icon-nav-light/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/icon-nav/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/index-light/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order-history-light/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order-history/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/css/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/css/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/css/docs.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/css/docs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/css/toolkit-inverse.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/css/toolkit-inverse.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/css/toolkit-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/css/toolkit-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/fonts/toolkit-entypo.eot" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/fonts/toolkit-entypo.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/fonts/toolkit-entypo.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/fonts/toolkit-entypo.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/fonts/toolkit-entypo.woff" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/fonts/toolkit-entypo.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/fonts/toolkit-entypo.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/fonts/toolkit-entypo.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/fonts/toolkit-entypod41d.eot" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/fonts/toolkit-entypod41d.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/img/avatar-mdo.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/img/avatar-mdo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/js/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/js/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/js/tablesorter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/tablesorter.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/assets/js/toolkit.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/assets/js/toolkit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/bootstrap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/fluid-light/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/fluid-light/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/fluid/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/fluid/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/icon-nav-light/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/icon-nav-light/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/icon-nav/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/icon-nav/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/index-light/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/index-light/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/order-history-light/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/order-history-light/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/dashboard/order-history/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/order-history/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            <state relative-caret-position="578">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -68,12 +115,8 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/templates/dashboard/docs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1275">
-              <caret line="12" column="202" selection-start-line="12" selection-start-column="202" selection-end-line="12" selection-end-column="202" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/templates/dashboard/docs/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -85,10 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="493">
               <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#form#0;n#html#0;n#!!top" expanded="true" />
@@ -149,11 +192,11 @@
         <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/templates/registration/logged_out.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/index.html" />
-        <option value="$PROJECT_DIR$/polls/templates/dashboard/docs/index.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/register.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/templates/registration/register.html" />
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/polls/templates/dashboard/docs/index.html" />
       </list>
     </option>
   </component>
@@ -167,8 +210,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="35" />
-    <option name="y" value="67" />
+    <option name="x" value="-44" />
+    <option name="y" value="82" />
     <option name="width" value="1346" />
     <option name="height" value="687" />
   </component>
@@ -191,18 +234,7 @@
             <path>
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,6 +253,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leo\PycharmProjects\mysite\templates" />
       <recent name="C:\Users\leo\PycharmProjects\mysite\templates\registration" />
       <recent name="C:\Users\leo\PycharmProjects\mysite\blog\static" />
       <recent name="C:\Users\leo\PycharmProjects\mysite\polls\templates\dashboard" />
@@ -277,7 +310,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="67" width="1346" height="687" extended-state="0" />
+    <frame x="-44" y="82" width="1346" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -311,13 +344,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/polls/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polls/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -662,30 +688,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/registration/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#form#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -698,19 +716,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/dashboard/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275">
-          <caret line="12" column="202" selection-start-line="12" selection-start-column="202" selection-end-line="12" selection-end-column="202" />
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+    <entry file="file://$PROJECT_DIR$/templates/dashboard/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="221">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#form#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
