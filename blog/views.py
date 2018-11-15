@@ -33,3 +33,16 @@ class DeletePost(generic.DeleteView):
     model = Post
     success_url = '/blog'
     template_name = 'blog/confirm_delete.html'
+
+def register(request):
+
+    if request.POST:
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+
+        user = User.objects.create_user(username=username, password=password)
+        user.save()
+        return HttpResponseRedirect(reverse('blog:index'))
+
+    else:
+        return render(request, template_name='blog/register.html')
