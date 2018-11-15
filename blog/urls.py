@@ -11,6 +11,6 @@ urlpatterns = [
 
     path('blog/delete/<int:pk>', views.DeletePost.as_view(), name='delete_post'),
 
-    path('account/register', views.register, name='register')
+    path('account/register', views.register, name='register'),
 
 ]

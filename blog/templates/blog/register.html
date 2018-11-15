@@ -7,8 +7,12 @@
     <title>Title</title>
 </head>
 <body>
+    {% block header_title %}Register an Account{% endblock %}
+    {% block header_content %} Did you know we're not at all protected against XSS? {% endblock %}
 {% block content %}
-</ul>
+    </ul>
+
+
     <form method="post">
     {% csrf_token %}
     Username: <input class="form-control" type="text" name="username">

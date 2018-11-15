@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-
+{% block header_title %} Login Page {% endblock %}
+{% block header_content %} Escaping a character or two might work..But don't even try script tags. {% endblock %}
 {% block content %}
     </ul>
+
     {% if form.errors %}
      <p>Your username and password didn't match. Please try again.</p>
     {% endif %}
