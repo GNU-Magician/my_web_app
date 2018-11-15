@@ -11,11 +11,21 @@
 {% block header_content %} Sure you ain't fucked up, pal? Wanna delete this shit? {% endblock %}
 {% block content %}
     </ul>
+    {% if perms.blog.can_delete_posts %}
     <form method="post">{% csrf_token %}
     <p>Are you sure you want to delete "{{ object }}"?</p>
     <input type="submit" value="Confirm">
     </form>
+
+        {% else %}
+        <p>Only authenticated users can delete posts.</p>
+    {% endif %}
+
 {% endblock %}
+
+
+
+
 
 </body>
 </html>

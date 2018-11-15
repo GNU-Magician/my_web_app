@@ -66,6 +66,15 @@
         <li class="pa active">
           <a class="oy" href="{% url 'blog:index' %}">Blog</a>
         </li>
+          {% if user.is_authenticated %}
+              <li class="pa"><a class="oy" style="color:deepskyblue">{{ user }}</a></li>
+              <li class="pa"><a class="oy" href="{% url 'logout' %}">Logout</a></li>
+
+              {% else %}
+                    <li class="pa"><a class="oy" href="{% url 'login' %}">Login</a></li>
+
+          {% endif %}
+
       </ul>
     </div>
   </nav>

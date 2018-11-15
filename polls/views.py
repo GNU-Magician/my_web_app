@@ -5,7 +5,7 @@ from django.template import loader
 from django.urls import reverse
 from django.views import generic
 from django.utils import timezone
-
+from django.contrib.auth.decorators import login_required
 
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
@@ -39,6 +39,7 @@ def createPage(request):
 
     return render(request=request, template_name='polls/create.html', context={})
 
+@login_required
 def create(request):
 
     if request.POST:
@@ -69,7 +70,7 @@ class deleteView(generic.DeleteView):
 
 #def create_choice_page(request):
     #return render(request, template_name='polls/choice_form')
-
+@login_required
 def create_choice(request, pk):
     question = get_object_or_404(Question, pk=pk)
     choices = question.choice_set.all()

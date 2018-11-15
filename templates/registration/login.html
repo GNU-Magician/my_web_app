@@ -1,0 +1,47 @@
+{% extends 'dashboard/docs/index.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+{% block content %}
+    </ul>
+    {% if form.errors %}
+     <p>Your username and password didn't match. Please try again.</p>
+    {% endif %}
+
+{% if next %}
+  {% if user.is_authenticated %}
+    <p>Your account doesn't have access to this page. To proceed,
+    please login with an account that has access.</p>
+  {% else %}
+    <p>Please login to see this page.</p>
+  {% endif %}
+{% endif %}
+
+    <form method="post" action="{% url 'login' %}">
+    <div class="bs">
+{% csrf_token %}
+
+  <ul class="list-group">
+      <li class="list-group-item">{{ form.username.label_tag }}
+          {{ form.username }}</li><br>
+
+  <li class="list-group-item">{{ form.password.label_tag }}
+      {{ form.password }}</li>
+
+<input type="submit" value="login" />
+<input type="hidden" name="next" value="{{ next }}" />
+        </ul>
+
+</form>
+
+{# Assumes you setup the password_reset view in your URLconf #}
+<p><a href="#">Lost password?</a></p>
+
+{% endblock %}
+
+</body>
+</html>
